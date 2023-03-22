@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #1F2937;
+}
+
+/* HEADER CHANGES */
+
+header, .hero, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 10vw;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+header a {
+    color: #E5E7EB;
+}
+
+/* HERO CHANGES */
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    padding: 4px 24px;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+    color: #F9FAF8;
+    margin-top: 10px;
+}
+
+.img {
+    background-color: grey;
+    padding: 100px 100px;
+}
+
+/* RANDOM INFO CHANGES */
+
+.random-information h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 48px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.random-info-col {
+    text-align: center;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 20px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+/* TESTIMONIALS CHANGES */
+
+.testimonials {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.writter {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* CALL TO ACTION CHANGES */
+
+.call-to-action {
+    padding: 100px 10vw;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.inside-container {
+    background-color: #3882F6;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-left p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.inside-container button {
+    background-color: #3882F6;
+    padding: 4px 24px;
+    border-radius: 8px;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
